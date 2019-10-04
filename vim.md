@@ -41,9 +41,15 @@
 
 **w** - next space / punctuation  
 **W** - ignores punctuation  
-**b** - prev word  
+**b** - prev space / puntuation  
+**B** - ignores punctuation  
 **0** - start of line  
 **^** - first char in line
+
+### Search
+
+**t + !** - one char before char "!"  
+**f + !** - atop of char "!"
 
 > We can link commands together
 
