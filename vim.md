@@ -11,13 +11,12 @@
 
 ## Modes
 
-i - insert mode  
-V - visual mode, where we can see what we are doing!
+**i** - insert mode  
+**v, V** - visual mode, where we can see what we are doing!
 
 - in visual mode we can use the movement commands such as } to jump to the end of multiple now selected blocks
 - once we have made our selections we can use commands such as d to delete it
 
-**i** - insert mode  
 **esc** - command mode
 
 ## Commands
@@ -25,21 +24,31 @@ V - visual mode, where we can see what we are doing!
 **dd** - delete a line / 'grab'  
 **u** - undo  
 **⌃ r** - redo  
+**yy** - copy line  
+**p** - paste below  
+**P** - paste above  
+**o, O** - newline below or above and then jump into insert mode
+
+### Vertical
+
 **G** - end of file  
 **gg** - start of file  
 **}** - end of block  
 **{** - start of block  
-**number + hjkl** - number lines/chars in direction
+**: + 30** - line 30
 
-> Alot of the commands in vim follows this convention for example
+### Horizontal
 
-**number + }** - number of code blocks down  
-**number + dd** - delete / 'grab' number of lines down  
-**yy** - copy line  
-**p** - paste below  
-**P** - paste above  
-**o** / **O** - newline below or above and then jump into insert mode
+**w** - next space / punctuation  
+**W** - ignores punctuation  
+**b** - prev word  
+**0** - start of line  
+**^** - first char in line
 
 > We can link commands together
 
-**d + }** - delete entire block
+**number + }** - number of code blocks down  
+**number + dd** - delete / 'grab' number of lines down  
+**number + hjkl** - number lines/chars in direction  
+**d + }** - delete entire block  
+**15 + dd** - delete 15 lines of code
