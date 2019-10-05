@@ -46,6 +46,9 @@
 **0** - start of line  
 **^** - first char in line
 
+### Multi-Dimensional flying bananans
+**% + }** - jump to next "}"  
+
 ### Search
 
 **t + !** - one char before char "!"  
