@@ -17,7 +17,7 @@
 - in visual mode we can use the movement commands such as } to jump to the end of multiple now selected blocks
 - once we have made our selections we can use commands such as d to delete it
 
-**esc** - command mode
+**esc** - command modde
 
 ## Commands
 
@@ -47,7 +47,8 @@
 **^** - first char in line
 
 ### Multi-Dimensional flying bananans
-**% + }** - jump to next "}"  
+
+**% + }** - jump to next "}"
 
 ### Search
 
